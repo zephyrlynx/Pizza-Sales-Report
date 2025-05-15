@@ -95,6 +95,7 @@ SELECT TOP 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders
 FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Orders ASC;
+```
 
 📺 Final DashBoard 
 ![image](https://github.com/user-attachments/assets/e6bee73c-4b82-42e2-89d7-35f7ed1eb928)
